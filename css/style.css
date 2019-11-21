@@ -1,0 +1,505 @@
+/*General*/
+body{
+    font-size: 15px;
+}
+
+
+
+/* CUSTOMIZE THE NAVIGATION BAR
+-------------------------------------------------- */
+
+.section-header .navbar {
+    background-color: #077A9C;
+}
+
+ 
+
+.navbar .navbar-brand i{
+   
+    transition: 0.5s ease;
+    font-size: 1.7em;
+}
+
+.navbar .navbar-brand:hover {
+    color: #7ECCDC;
+}
+.navbar .navbar-nav .nav-item .nav-link {
+    color: #ffffff;
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover {
+    color: #7ECCDC;
+    transition: 0.5s ease;
+}
+
+.navbar .nav-item .dropdown-menu .dropdown-item {
+    color: #000000;
+}
+
+.navbar .nav-item .dropdown-menu .dropdown-item:hover {
+    background-color: #ffffff;
+    color: #077A9C;
+    transition: 0.5s ease;
+}
+
+.section-header form .btn-primary{
+    
+    background-color: #7ECCDC;
+    border-color: #7ECCDC;
+}
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+#myCarousel{
+    padding-top: 5.35em ;
+}
+
+  /* Since positioning the image, we need to help out the caption */
+  .carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+  }
+  
+  /* Declare heights because of positioning of img element */
+  .carousel-item {
+    height: 30rem;
+  }
+  .carousel-item > img {
+   
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 32rem;
+  }
+/* CUSTOMIZE THE CATEGORIES PAGES
+-------------------------------------------------- */
+  #intro{
+      background-image: url("../images/banners/ecg.jpg");
+      background-size: cover;
+  }
+  #intro-eeg{
+    background-image: url("../images/banners/eeg.png");
+    background-size: cover;
+}
+#intro-ct{
+    background-image: url("../images/banners/ct.jpg");
+    background-size: cover;
+}
+#intro-usg{
+    background-image: url("../images/banners/usg.jpg");
+    background-size: cover;
+}
+
+
+  .filter-bar {
+      margin-left: 1em;
+      margin-right: 2em;
+      padding-top: 1em;
+      padding-bottom: 1em;
+  }
+  .filter-bar .breadcrumb {
+      background-color: #ffffff;
+      padding-top: 0;
+  }
+  /* CUSTOMIZE THE Details PAGES
+-------------------------------------------------- */
+.top-bar {
+    margin-left: 2em;
+    margin-right: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.top-bar .blue{
+    color: #1DA1F2;
+}
+.section-content .img-big-wrap{
+    margin-top: 1.4em;
+}
+.section-content .card-body h4{
+font-size: 15px;
+}
+.section-content .card-body .title{
+    color: #4267B2;
+}
+.section-content .card-body .model {
+    color: #999393;
+}
+.section-content .card-body .brand {
+    color: #999393;
+}
+
+.section-content .card-body .price{
+    color: #1DA1F2;
+    font-size: 20px;
+    font-weight: bold;
+}
+.section-content .card-body .blue{
+    color: #4267B2;
+}
+
+.section-content .card-body .rating-wrap{
+    color: #1DA1F2;
+    }
+    .section-content .card-body .rating-wrap .star{
+    
+       color: #1DA1F2 ;
+    }
+
+    .section-content .card-body .dlist-inline{
+    font-size: 18px;
+    padding-right: 10px;
+     }
+
+     .section-content .card-body .subtitle{
+         color: #077A9C;
+     }
+/* CUSTOMIZE THE Home-Search Container
+-------------------------------------------------- */
+#home-search .wrap{
+    position: absolute;
+    width: 50%;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+     
+}
+
+#home-search .search{
+    width: 100%;
+    position: relative;
+}
+#home-search .searchterm{
+float: left;
+width: 100%;
+border: 2px solid #7ECCDC;
+padding: 11px;
+font-size: 17px;
+outline: none;
+border-radius: 5px 0 0 5px;
+}
+
+#home-search .searchterm:focus{
+    color: #7ECCDC;
+    border: 2px solid #7ECCDC;
+}
+
+
+
+#home-search .searchbtn{
+    position: absolute;
+    width: 50px;
+    height: 51px;
+    border: 10px solid #7ECCDC;
+    background-color: #7ECCDC; 
+    text-align: center;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius:  0 5px  5px 0;
+}
+
+  #home-search .bigBaseline {
+    color: #666;
+    text-align: center;
+    font-size: 32px;
+    line-height: 35px;
+    margin: 20px 20px;
+}
+
+#home-search .productsCount {
+    color: #AAAEAD;
+    text-align: center;
+    font-size: 27px;
+    line-height: 25px;
+    padding-bottom: 2em;
+}
+
+
+/* CUSTOMIZE THE Categories Section
+-------------------------------------------------- */
+#categories{
+    margin-top: 5%;
+}
+.univers-main{
+    margin-left: 15%;
+}
+.univers-group-item span {
+    border-left: #7eccdc solid 3px;
+    padding-left: 15px;
+    text-transform: uppercase;
+    color: #4d4d4d;
+    width: 50%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: inline-block;
+    font-size: 1.5em;
+}
+ol, ul {
+    list-style: none;
+   
+}
+.category-group a {
+    display: block;
+    padding-top: 5px;
+    margin: 10px;
+    font-size: 1em;
+    color: #6d6d6d;
+    text-transform: uppercase;
+    text-decoration: none;
+    }
+    .category-group a:hover{
+        color: #7ECCDC;
+        font-size: 1.1em;
+        font-weight: 700;
+        transition: 0.2s ease-in;
+    }
+
+/* CUSTOMIZE THE New-products Slider  Section
+-------------------------------------------------- */
+#new-products .title-text{
+    color: #555659;
+}
+
+
+
+#new-products .item-slide .item_2{
+    box-sizing: border-box;
+}
+
+#new-products .badge-new{
+    background-color:  #E6BB83;
+}
+#new-products .img-brand{
+    width: 50%;
+    align-self: center;
+    margin-bottom: 1.5em;
+}
+
+#new-products a{
+    color: #7ECCDC;
+}
+
+#new-products a:hover{
+    color: #077A9C;
+    transition: 0.3s ease-in;
+   
+}
+
+
+/* CUSTOMIZE THE Best-Selling products Slider  Section
+-------------------------------------------------- */
+
+#best-selling-products .title-text{
+    color: #555659;
+}
+
+#best-selling-products a{
+    color: #7ECCDC;
+}
+
+#best-selling-products a:hover{
+    color: #077A9C;
+    transition: 0.3s ease-in;
+   
+}
+
+
+/* CUSTOMIZE THE Brands Slider  Section
+-------------------------------------------------- */
+
+#brands .title-text{
+    color: #555659;
+}
+#brands a:hover{
+    
+    transition: 0.3s ease-in;
+   
+}
+#brands{
+    padding-bottom: 3em;
+
+}
+
+/* CUSTOMIZE THE Products  Section
+-------------------------------------------------- */
+
+#products .container{
+    width: 100%;
+    margin-top: 1%;
+}
+
+#products .row{
+    margin-top: 30px;
+}
+#products img{
+    width: 100%;
+}
+#products .product-bottom .star{
+color: #1DA1F2;
+font-size: 10px;
+
+}
+
+#products .product-bottom h6{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#products .product-bottom .product-title{
+    color:#555659;
+}
+#products .product-bottom .product-model{
+    color:#999999;
+}
+#products .product-bottom .product-brand{
+    color:#077A9C;
+}
+#products .product-bottom h5{
+    color:#1DA1F2;
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+#products .overlay{
+    display: block;
+    opacity: 0;
+    position: absolute;
+    top: 10%;
+    margin-left: 0;
+    width: 70px;
+}
+
+#products .product-top:hover .overlay{
+opacity: 1;
+margin-left: 3%;
+transition: 0.5s;
+
+}
+#products .overlay .fas{
+    background-color: #4267B2;
+    cursor: pointer;  
+    color: #fff;
+    height: 35px;
+    width: 35px;
+    font-size: 20px;
+    padding: 7px;
+    margin: 3%;
+    margin-bottom: 3%;
+}
+#products .btn-secondary{
+    background: transparent;
+    border: none;
+    box-shadow: none;
+}
+
+
+
+/* CUSTOMIZE THE Footer  Section
+-------------------------------------------------- */
+.section-footer {
+    background-color: #077A9C;
+}
+.section-footer  p{
+   color: #E5E6E8;
+   }
+   .section-footer ul a {
+       color:#E5E6E8;
+   }
+.section-footer i{
+    font-size: 1.5em;
+
+}
+
+.section-footer .social a{
+width: 25px;
+height: 25px;
+margin:  0 4px;
+display: inline-block;
+text-align: center;
+line-height: 2.2em;
+background-color: #676767;
+border-radius: 15px;
+}
+.section-footer .social .facebook{
+   background-color:#4267B2;
+   color: #ffffff;
+}
+.section-footer .social .instagram{
+    background-color:#BF2E89;
+    color: #ffffff;
+ }
+
+ .section-footer .social .twitter{
+    background-color:#1DA1F2;
+    color: #ffffff;
+ }
+ .section-footer .social .youtube{
+    background-color:#FF0000;
+    color: #ffffff;
+ }
+ .section-footer hr{
+    border-top: 1px solid  #73726E;
+
+ }
+
+ /* CUSTOMIZE THE Cart Page
+-------------------------------------------------- */
+
+#cart{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+/*Customize Contacts page*/
+
+
+#contact{
+    margin-top: 130px;
+    margin-bottom: 50px;
+}
+
+  
+  
+#contact h2 > small,
+#contact p,
+#contact a {
+    color: #f9f9f9;
+}
+
+#contact-form {
+    padding: 1em 0;
+    
+}
+
+#contact-form .col-md-12,
+#contact-form .col-md-4 {
+    padding-left: 0;
+}
+
+#contact-form .form-control {
+    border: 1px solid  #2FA4E8;;
+    border-radius: 5px;
+    box-shadow: none;
+    margin: 10px 0;
+}
+
+#contact-form input {
+    height: 50px;
+}
+
+#contact-form input[type='submit'] {
+    border-radius: 50px;
+    border: 1px solid  #2FA4E8;;
+}
+
+#contact-form input[type='submit']:hover {
+    background: transparent;
+    border-color:  #2FA4E8;
+    color: #4267B2;
+}
+#contact .space{
+    padding-top: 1em;
+    font-size: 20px;
+    color: #1DA1F2;
+  
